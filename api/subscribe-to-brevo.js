@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   const contact = {
     email: data.email,
     attributes: {
-      AGREED_TO_POLICY: data["Agree to Privacy Policy"] === "on" ? "Yes" : "No",
+      AGREE: data["Agree to Privacy Policy"] === "on" ? "Yes" : "No",
     },
     listIds: [11], // ✅ You can use a different list ID if needed
     updateEnabled: true,
