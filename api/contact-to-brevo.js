@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       MESSAGE: data.message,
       OFFER: data.offer === "on" ? "Yes" : "No",
     },
-    listIds: [10], // ✅ Use different List ID if needed
+    listIds: [12], // ✅ Use different List ID if needed
     updateEnabled: true,
   };
 

@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     attributes: {
       AGREED_TO_POLICY: data["Agree to Privacy Policy"] === "on" ? "Yes" : "No",
     },
-    listIds: [10], // ✅ You can use a different list ID if needed
+    listIds: [11], // ✅ You can use a different list ID if needed
     updateEnabled: true,
   };
 
