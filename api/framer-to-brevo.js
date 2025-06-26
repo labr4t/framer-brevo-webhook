@@ -47,4 +47,3 @@ export default async function handler(req, res) {
       .json({ message: "Internal Server Error", error: error.message });
   }
 }
-gi
