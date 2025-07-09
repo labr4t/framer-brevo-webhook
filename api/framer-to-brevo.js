@@ -24,6 +24,7 @@ export default async function handler(req, res) {
           METHOD: data.method,
           MESSAGE: data.message,
           TITLE: data.title,
+          DATE: data.date, // ✅ Add this!
         },
         listIds: [10],
         updateEnabled: true,

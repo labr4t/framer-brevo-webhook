@@ -11,6 +11,7 @@ export default async function handler(req, res) {
     email: data.email,
     attributes: {
       AGREE: data.agree === "on" ? "Yes" : "No",
+      DATE: data.date, // ✅ Add this!
     },
     listIds: [11], // ✅ You can use a different list ID if needed
     updateEnabled: true,
